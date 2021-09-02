@@ -1,0 +1,5 @@
+pip install flask
+pip install pymysql
+pip install flask-table // table con HTML
+pip install flask-mysql // Flask-MySQL es una extensión de Flask que le permite acceder a una base de datos MySQL.
+pip install flask_table

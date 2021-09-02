@@ -1,0 +1,28 @@
+<doctype html>
+    <title>Agregar Usuario - MySQL CRUD</title>
+
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <div class="container">
+        <h2>Agregar Usuario</h2>
+        <form method="post" action="/add_user">
+            <dl>
+                <p>
+                    <input name="inputName" class="form-control" type="text" placeholder="Nombre" autocomplete="off" required>
+                </p>
+                <p>
+                    <input name="inputEmail" class="form-control" type="text" placeholder="Correo Electrónico" autocomplete="off"
+                        required>
+                </p>
+                <p>
+                    <input name="inputPassword" class="form-control" type="password" placeholder="Contraseña" autocomplete="off"
+                        required>
+                </p>
+            </dl>
+            <p>
+                <input type="submit" class="btn btn-primary" value="Guardar">
+            </p>
+        </form>
+    </div>
